@@ -1,0 +1,52 @@
+.nav{
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  gap: 50px;
+}
+.containerBtn{
+  display: flex;
+  gap: 50px;
+}
+.containerBtn button{
+  width:90px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid green;
+  color: green;
+  font-weight: 800;
+  background-color: white
+}
+.containerBtn button:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.text{
+  display: block;
+  background-color: white;
+  width: 80%;
+  height: 250px;
+  margin-top: 5px;
+  padding-top: 17px;
+  color: darkslategray;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #eee ;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.containerBtn button:disabled {
+  background-color: #dddddd; /* Set the background color for disabled state */
+  color: #888888; /* Set the text color for disabled state */
+  cursor: not-allowed; /* Change the cursor to not-allowed for better user feedback */
+}
+.text p{
+  color: black;
+  padding-top: 20px;
+}
